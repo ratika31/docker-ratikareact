@@ -18,6 +18,7 @@ deploy:
  env: "DockerReactapp-env-1"
  bucket_name: "elasticbeanstalk-eu-west-2-217456606433"
  bucket_path: "docker-reactapp"
+ skip_cleanup: true
  on:
   branch: master
  access_key_id: $AWS_ACCESS_KEY
