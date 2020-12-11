@@ -12,7 +12,7 @@ deploy:
  provider: elasticbeanstalk
  region: "eu-west-2"
  app: "docker-reactapp"
- env: "DockerReactapp-env-1"
+ env: "DockerReactapp-env"
  bucket_name: "elasticbeanstalk-eu-west-2-217456606433"
  bucket_path: "docker-reactapp"
  skip_cleanup: true
